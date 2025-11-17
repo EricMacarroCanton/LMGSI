@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <style>
+   table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   }
+   h1, th, td {
+   text-align: center;
+   font-size: 25px;  
+  padding: 8px;    
+  }
+  h1 {
+  font-weight: bold;
+  }
+  .ped {background-color: palevioletred;}
+  .sis {background-color: yellow;}
+  .ang {background-color: orange;}
+  .bd {background-color: rgb(237, 208, 103);}
+  .sge {background-color: purple;}
+  .tut {background-color: rgb(112, 112, 252);}
+  .ipo {background-color: red;}
+  .mar {background-color: pink;}
+
+  #descans {
+    font-size: 20px;   
+    padding: 15px;   
+}
+  .hores {
+    font-size: 20px;   
+    padding: 10px;   
+    width: 180px;       
+    text-align: center;
+  }
+  table {
+    width: 55%;      
+    margin: auto;       
+    text-align: center;  
+}
+body {
+    font-family: Verdana;
+}
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari2526</title>
+</head>
+<body>
+    <h1 style="color:blue;">Horari</h1>
+    
+<table style="margin: auto;width:55%">
+
+<caption style="color:rgb(245, 224, 62);font-size: 25px;width:100">Curs 2025/26</caption>
+  <tr style="background-color:yellowgreen;text-align: center;">
+    <th></th>
+    <th>Dilluns</th>
+    <th>Dimarts</th>
+    <th>Dimecres</th>
+    <th>Dijous</th>
+    <th>Divendres</th>
+  </tr>
+  <tr>
+    <td class="hores">8:00-9:00</td>
+    <td class="ped" rowspan="2">P+ED</td>
+    <td class="ang">AN(GS)</td>
+    <td class="tut">TUT</td>
+    <td class="ipo">IPOI</td>
+    <td class="bd" rowspan="2">BD</td>
+  </tr>
+  <tr>
+    <td class="hores">9:00-10:00</td>
+    <td class="sge" rowspan="2">SGE</td>
+    <td class="sis" rowspan="2">SIS</td>
+    <td class="bd" rowspan="2">BD</td>
+
+  </tr>
+   <tr>
+    <td class="hores">10:00-11:00</td>
+    <td class="sis" >SIS</td>
+    <td class="ang" >AN(GS)</td>
+  </tr>
+
+ <tr>
+    <td colspan="6" id="descans">DESCANS</td>
+</tr>
+
+   <tr>
+    <td class="hores">11.30:00-12:30</td>
+    <td class="mar" rowspan="2">MAR</td>
+    <td class="ped" rowspan="2">P+ED</td>
+    <td class="ipo" rowspan="2">IPOI</td>
+    <td class="ped" rowspan="2">P+ED</td>
+    <td class="ped" rowspan="2">P+ED</td>
+  </tr>
+   <tr>
+    <td class="hores">12.30:00-13:30</td>
+    
+  </tr>
+</table>
+    
