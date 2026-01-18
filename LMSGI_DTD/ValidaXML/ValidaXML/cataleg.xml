@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg_musica SYSTEM "cataleg.dtd">
+
+<cataleg_musica>
+
+    <llista_artistes>
+        <artista id="a1">
+            <nom>Coldplay</nom>
+            <pais>Regne Unit</pais>
+            <genere>Rock</genere>
+        </artista>
+
+        <artista id="a2">
+            <nom>Oques Grasses</nom>
+            <genere>Pop</genere>
+        </artista>
+
+        <artista id="a3">
+            <nom>Daft Punk</nom>
+            <pais>França</pais>
+        </artista>
+    </llista_artistes>
+
+    <llista_albumes>
+        <album id="al1">
+            <titol>Parachutes</titol>
+            <any>2000</any>
+            <artistes>
+                <artista_ref ref="a1"/>
+            </artistes>
+        </album>
+
+        <album id="al2">
+            <titol>Ara és demà</titol>
+            <any>2016</any>
+            <artistes>
+                <artista_ref ref="a2"/>
+            </artistes>
+        </album>
+    </llista_albumes>
+
+    <llista_recomanacions_albumes>
+        <recomanacio ref="al1"/>
+        <recomanacio ref="al2"/>
+    </llista_recomanacions_albumes>
+
+</cataleg_musica>
