@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE libro SYSTEM "llibre.dtd">
-
-<libro>
-    <titulo>El nombre del viento</titulo>
-    <autor>Patrick Rothfuss</autor>
-    <anio>2007</anio>
-</libro>
+<!DOCTYPE llibre SYSTEM "llibre.dtd">
+<llibre>
+    <titol>El Camino de los Reyes</titol>
+    <autor>Brandon Sanderson</autor>
+    <saga>El Archivo de las Tormentas</saga>
+    <part>1</part>
+    <anyPublicacio>2010</anyPublicacio>
+</llibre>
