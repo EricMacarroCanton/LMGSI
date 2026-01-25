@@ -11,7 +11,7 @@
         <preu>799.99</preu>
         <categoria>Informàtica</categoria>
         <disponibilitat>En estoc</disponibilitat>
-        <imatge url="https://www.exemple.com/imatges/lenovo.jpg"/>
+<imatge url="https://p3-ofp.static.pub//fes/cms/2024/04/01/osqn4brfn79vgwdhq64mis2ddur9a6681695.png" />
     </producte>
 
     <!-- Segon producte -->
@@ -21,7 +21,7 @@
         <preu>149.99</preu>
         <categoria>Àudio</categoria>
         <disponibilitat>Esgotat</disponibilitat>
-        <imatge url="https://www.exemple.com/imatges/sony.jpg"/>
+<imatge url="https://sony.scene7.com/is/image/sonyglobalsolutions/wh-ch520_Primary_image?$S7Product$&amp;fmt=png-alpha" />
     </producte>
 
 </botiga>
