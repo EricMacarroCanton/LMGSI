@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<personal_data>
+    <full_name>
+        <name>Peter</name>
+        <surname>Johnson</surname>
+    </full_name>
+    <age>20</age>
+    <height unit="m">1.80</height>
+    <profession>Computer technician</profession>
+    <favourite_symbol>&lt;3</favourite_symbol>
+
+    <pets>
+        <pet type="cat">black</pet>
+        <pet type="dog">chihuahua</pet>
+    </pets>
+
+    <address>
+        <street>Pau Claris</street>
+        <number>125</number>
+        <postal_code>08012</postal_code>
+    </address>
+</personal_data>
+
+<social_networks>
+    <instagram>
+        <username>peter_j</username>
+        <contact_email>peter.j@gmail.com</contact_email>
+    </instagram>
+    <twitter account="false"/>
+</social_networks>
+
+<friends_list>
+    <friend id="1">
+        <name>John</name>
+        <surname>Doe</surname>
+        <age>36</age>
+    </friend>
+    <friend id="2">
+        <name>Anna</name>
+        <surname>Smith</surname>
+        <age>unknown</age>
+    </friend>
+</friends_list>
+</root>
