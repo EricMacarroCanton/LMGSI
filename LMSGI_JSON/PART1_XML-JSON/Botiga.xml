@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botiga SYSTEM "botiga.dtd">
+
+<!-- Document XML de la botiga online -->
+<botiga nom="TechStore" moneda="EUR">
+
+    <!-- Primer producte -->
+    <producte codi="P001">
+        <nom>Portàtil Lenovo IdeaPad</nom>
+        <descripcio>Portàtil lleuger amb processador Intel i5 i 16GB de RAM</descripcio>
+        <preu>799.99</preu>
+        <categoria>Informàtica</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge url="https://www.exemple.com/imatges/lenovo.jpg"/>
+    </producte>
+
+    <!-- Segon producte -->
+    <producte codi="P002">
+        <nom>Auriculars Bluetooth Sony</nom>
+        <descripcio>Auriculars sense fils amb cancel·lació de soroll</descripcio>
+        <preu>149.99</preu>
+        <categoria>Àudio</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge url="https://www.exemple.com/imatges/sony.jpg"/>
+    </producte>
+
+</botiga>
